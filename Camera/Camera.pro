@@ -15,5 +15,11 @@ LIBS += -lopencv_contrib
 LIBS += -lopencv_legacy
 LIBS += -lopencv_flann
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    commonFunction.cpp \
+    fragile.cpp
+
+HEADERS += \
+    commonFunction.h \
+    fragile.h
 
